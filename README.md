@@ -1,5 +1,4 @@
 # The CUAppDev Git-Bible
----
 
 ## Pre-Pull Request
 
