@@ -48,14 +48,14 @@ Use rebase to do whatever you please to make the history most understandable and
 * `git rebase origin/master`
 * …resolve conflicts…
 * `git checkout master`
-* `git reset —hard origin/master`
-* `git merge —no-ff [your-name]/[feature]`
+* `git reset --hard origin/master`
+* `git merge --no-ff [your-name]/[feature]`
 * …there should be no conflicts at this point since they were resolved already…
 * …make sure you can build, no warnings, etc…
 * `git push origin master`
 
 ## Escape Hatches
 * `git rebase -abort` while rebasing
-* `git reset —hard ORIG-HEAD` after rebasing
+* `git reset --hard ORIG-HEAD` after rebasing
 * `git reflog` if you accidentally delete something you don’t mean to
  
