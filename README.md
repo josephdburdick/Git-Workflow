@@ -53,6 +53,11 @@ Use rebase to do whatever you please to make the history most understandable and
 6. If Pull Request submitted
 	* Close PR and link merge commit SHA in comment
 7. Close relevant issue and link merge commit SHA in comment
+8. Delete branches
+	* From local: `git branch -D [your-name]/[feature]` 
+	* From remote: `git push origin --delete [your-name]/[feature]`
+	* Or include a script in your .bashrc / .zshrc file that does both simultaneously: ```deleteBranch(){ git branch -D $1; git push origin --delete $1 }```
+	-	`$ deleteBranch [your-name]/[feature]`
 
 
 ## Merging
