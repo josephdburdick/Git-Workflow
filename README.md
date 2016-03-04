@@ -33,7 +33,7 @@ Use rebase to do whatever you please to make the history most understandable and
 * This merge commit does have value, indicates a feature has landed
 ![Source: from http://blogs.atlassian.com/2014/01/simple-git-workflow-simple ](rebase-on-master.gif)
 ![Source: from http://blogs.atlassian.com/2014/01/simple-git-workflow-simple ](git-rebase.gif)
-I found this animations to be the best visual representation from [an Atlassian blog post](http://blogs.atlassian.com/2014/01/simple-git-workflow-simple/).
+I found these animations from [an Atlassian blog post](http://blogs.atlassian.com/2014/01/simple-git-workflow-simple/) to be the best visual representation.
 
 ## Workflow
 
