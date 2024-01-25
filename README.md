@@ -1,4 +1,4 @@
-#A collaborative process for Git.
+# A collaborative process for Git.
 From the official Github Flow guide:
 > Branching is a core concept in Git, and the entire GitHub Flow is based upon it.
 > There's only one rule: anything in the master branch is always deployable.
